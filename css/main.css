@@ -1,7 +1,19 @@
 html {
   box-sizing: border-box;
+  font-family: open sans, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
 }
