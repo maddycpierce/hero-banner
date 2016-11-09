@@ -1,19 +1,46 @@
 html {
   box-sizing: border-box;
-  font-family: open sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
   font-size: 4rem;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+  max-width: 50em;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
 }
 
 p {
   font-size: 2rem;
   font-style: italic;
+}
+
+.banner-content h1,
+.banner-content p {
+  margin: 0;
 }
