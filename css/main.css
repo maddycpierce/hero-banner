@@ -23,6 +23,8 @@ body {
   bottom: 2em;
   width: 100%;
   max-width: 50em;
+  padding: 0 1rem;
+  bottom: 1rem;
 }
 
 img {
